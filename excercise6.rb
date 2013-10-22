@@ -1,6 +1,14 @@
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
-grocery_list.each do |x|
+def plist(grocery_list)
+  grocery_list.each do |x|
   puts "* #{x}"
+  end
 end
+
+plist(grocery_list)
+
+grocery_list << "rice"
+
+
 
