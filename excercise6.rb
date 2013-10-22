@@ -10,5 +10,9 @@ plist(grocery_list)
 
 grocery_list << "rice"
 
+plist(grocery_list)
+
+puts grocery_list.count
+
 
 
