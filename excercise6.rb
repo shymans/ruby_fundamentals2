@@ -20,4 +20,10 @@ else
   puts "You don't need to pick up bananas"
 end
 
+puts grocery_list[1]
 
+shoplist(grocery_list.sort!)
+
+grocery_list.delete("salmon")
+
+shoplist(grocery_list)
